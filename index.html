@@ -22,11 +22,24 @@
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 	</head>
-	<body>
+	<body style="background-color: white;">
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+                <section>
+                    <img class="plain" data-src="ramaiah_slides/msrit_logo.png" style="width:12em; height:auto;">
+                    <h2 class="black-text">efnwejfnweonewof</h2>
+                </section>
+				<section id="fragments">
+					<h2>Fragmentsddefwef</h2>
+					<p>Hit the next arrow...</p>
+					<p class="fragment">... to step through ...</p>
+					<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
+
+					<aside class="notes">
+						This slide has fragments which are also stepped through in the notes window.
+					</aside>
+				</section>
+				<section>Slide 3</section>
 			</div>
 		</div>
 
@@ -42,7 +55,7 @@
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
+                ]
 			});
 		</script>
 	</body>
